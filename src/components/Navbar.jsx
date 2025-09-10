@@ -7,6 +7,7 @@ const navigation = [
     { name: 'Body Care', href: '#', current: false },
     { name: 'Hair Care', href: '#', current: false },
     { name: 'Makeup', href: '#', current: false },
+    { name: 'Vitamins', href: '#', current: false },
   ];
 
   function classNames(...classes) {
@@ -16,7 +17,7 @@ const navigation = [
 
 function Navbar() {
   return (
-    <div>
+    <div className=''>
       <p className="flex h-10 items-center justify-center bg-[#D9A299] px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>

@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
+import BrandIdentity from '../components/BrandIdentity'
 
 const Home = () => {
   return (
     <div>
-
-        <h1>hello world</h1>
+      <BrandIdentity />
+      <h1>Home page</h1>
       
     </div>
   )
