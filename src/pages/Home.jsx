@@ -1,11 +1,12 @@
 import React from 'react'
 import BrandIdentity from '../components/BrandIdentity'
+import BestSellers from '../components/BestSellers'
 
 const Home = () => {
   return (
     <div>
       <BrandIdentity />
-      <h1>Home page</h1>
+      <BestSellers />
       
     </div>
   )
