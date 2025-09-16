@@ -5,9 +5,9 @@ const StoreCategories = () => {
   return (
     <section className='bg-[#FAF7F3] p-5'>
         <h1 className='text-center text-3xl'>SHOP BY CATEGORY</h1>
-        <div className='flex justify-center space-x-20 p-4'>
+        <div className='flex justify-evenly flex-wrap md:space-x-20 p-4'>
             <a className='border border-gray-200 p-1 border-r-2' href='#'>
-                <img className="w-24 h-24 bg-white" src="https://png.pngtree.com/png-vector/20230506/ourmid/pngtree-beauty-and-womens-products-png-image_7083084.png" alt="" />
+                <img className=" w-24 h-24 bg-white" src="https://png.pngtree.com/png-vector/20230506/ourmid/pngtree-beauty-and-womens-products-png-image_7083084.png" alt="" />
                 <p className='text-md text-center font-bold'>ALL Products</p>
             </a>
             <a className='border border-gray-200 p-1 border-r-2' href='#'>
