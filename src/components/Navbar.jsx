@@ -2,6 +2,7 @@
 import React from 'react'
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { NavLink } from 'react-router-dom';
 const navigation = [
     { name: 'Skin Care', href: '#', current: false },
     { name: 'Body Care', href: '#', current: false },
@@ -34,9 +35,12 @@ function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex shrink-0 items-center text-[#987070] text-2xl font-bold">
-              Essence Care
-            </div>
+            <NavLink to="/">
+              <div className="flex shrink-0 items-center text-[#987070] text-2xl font-bold">
+                Essence Care
+              </div>
+            </NavLink>
+            
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
